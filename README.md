@@ -25,4 +25,4 @@ The parameters are as follow:
 
 This figure is obtained using the default values in optimize_montage.m
 
-![](example.montage.png)
+![](example_montage.png)
