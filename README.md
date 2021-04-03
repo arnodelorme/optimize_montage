@@ -21,3 +21,8 @@ The parameters are as follow:
 - ignore10_5: when true, ignore most 10_5 specific channel (those postfixed with "h"), only consider 10-10 channels
 - replaceChans: provide list of channels to replace at the end, one per row replaceChans = { 'CP6' 'FC6'; 'CP5' 'FC5' }
  
+# Example
+
+This figure is obtained using the default values in optimize_montage.m
+
+![example.montage.png]
