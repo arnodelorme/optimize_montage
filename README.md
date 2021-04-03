@@ -8,7 +8,7 @@ type of template montage.
  
 # Dependencies
  
-This program requires EEGLAB to be installed.
+This program requires MATLAB and [EEGLAB](https://eeglab.org/) to be installed.
  
 # Usage
  
