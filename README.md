@@ -29,9 +29,9 @@ This figure is obtained using the default values in optimize_montage.m
 
 # Acknowledgements
 
-Thanks to Robert Oostenveld for fruitful discussions.
+Thanks to Robert Oostenveld for fruitful discussions. Robert is one of the world expert in EEG and MEG, and has writen numerous articles on source localization and EEG montages.
 
-Robert agrees thta he would go rather for a montage that has low coverage over one that has dense coverage at the top. The bottom electrodes capture a lot of depth information which are useful for source localization. He also mentions an old paper about he could not remember the exact reference (might be Scherg and/or Berg or so).
+Robert agrees that he would go rather for a montage that has low coverage over one that has dense coverage at the top (which is the approach that was used here). The bottom electrodes capture a lot of depth information which are useful for source localization. He also mentions an old paper supporting that approach about he could not remember the exact reference (might be Scherg and/or Berg or so).
 
 He would not include I1 and I2. Iz is ok (the inion is bony), but with I1 and I2 you know that more or less for sure that they end up on the muscle. Unless you want to capture neck tension of course (and there might be a good reason for that).
 
