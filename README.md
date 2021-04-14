@@ -26,3 +26,21 @@ The parameters are as follow:
 This figure is obtained using the default values in optimize_montage.m
 
 ![](example_montage.png)
+
+# Acknowledgements
+
+Thanks to Robert Oostenveld for fruitful discussions. Robert's comment on the project:
+
+"I would in general go rather for one that has low coverage over one that has dense coverage at the top. The bottom electrodes capture a lot of depth information. There is also an old paper about this (cannot think of the reference right now, but might be Scherg and/or Berg or so).
+
+I would not include I1 and I2. Iz is ok (the inion is bony), but with I1 and I2 you know that more or less for sure that they end up on the muscle. Unless you want to capture neck tension of course (and there might be a good reason for that).
+
+I would use FCz as ground and TP9 or TP10 (or the corresponding M1 or M2) as online reference."
+
+# Other similar projects
+
+The [Easycap ressource](https://www.easycap.de/wp-content/uploads/2018/02/Easycap-10-based-electrode-layouts.pdf) contains layouts that others have already thought about. Some of them are more explicit about the number of electrodes (including GND/REF, or DRL/CMS) versus the number of channels, but others are not so. The M24 montage includes 36 electrodes. The BESA EEG33 layout is another interesting montage. 
+
+# Future directions
+
+It would be good to make some 2D plots without the electrode labels (they can be confusing) and 3D renderings of multiple montages, and be able to toggle between alternatives like a flipbook.
